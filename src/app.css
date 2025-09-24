@@ -1,0 +1,21 @@
+.tr{
+    border: black solid 1px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.buttons{
+    background-color: tomato;
+    border-radius: 5px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.buttons :hover{
+    background-color: red;
+    transition: 0.3s;
+}

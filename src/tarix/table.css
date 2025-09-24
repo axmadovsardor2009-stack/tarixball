@@ -1,0 +1,17 @@
+.utar{
+    background-color: rgb(38, 255, 125);
+    border-radius: 5px;
+}
+.jtar{
+    background-color: brown;
+    border-radius: 5px;
+}
+th{
+    width: 160px;
+    height: 40px;
+}
+td{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 40px;
+}
