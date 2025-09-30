@@ -14,8 +14,10 @@
     color: white;
     font-weight: bold;
     text-decoration: none;
+    transition: 3s ease-in-out all;
 }
 .buttons :hover{
+    border-radius: 5px;
     background-color: red;
     transition: 0.3s;
 }
