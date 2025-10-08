@@ -9,7 +9,7 @@ function App() {
   
   let defaultball = ["-","-","-","-","-","-","-","-","-","-","-"];
   let uzbtarb = [7,6,8,6,6,6,5,4,12,8,2];
-  let jahtarb = [0,0,0,2,0,2,2,2,2,0,0];
+  let jahtarb = [4,0,4,4,4,4,2,4,2,2,2];
   const [time, setTime] = useState(new Date());
   const [ball, setBall] = useState(defaultball);
   useEffect(() => {
@@ -29,7 +29,7 @@ function App() {
     <>
     <div className="flex w-full h-screen flex-col p-3">
       <h1 className="text-3xl w-full font-bold flex justify-evenly items-center pb-4">
-        It is history <p className="text-xl">{formattedDate} - {time.toLocaleTimeString('en-US')}</p>
+        Bu tarix! <p className="text-xl">{formattedDate} - {time.toLocaleTimeString('en-US')}</p>
       </h1>
       <div className=" flex justify-between buttons">
         <Link to="/uzbtar" onClick={()=>{setBall(uzbtarb)}} className="h-full w-full flex justify-center items-center">O'zbekiston tarixi</Link>
