@@ -53,7 +53,7 @@ function App() {
         </table>
         <div className="w-[70%] h-full overflow-x-scroll">
           <Routes>
-          <Route path="/" element={<div>Choose from options</div>}/>
+          <Route path="/" element={<div>Yuqoridagilardan o'zingiz xohlaganiningizni tanlang 👆</div>}/>
           <Route path="/uzbtar" element={<Ozbtarixi/>}/>
           <Route path="/jahtar" element={<Jahontarixi/>}/>
           <Route path="/news" element={<News/>}/>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Jahontarixi = () => {
   return (
-    <div className='flex p-3'>
+    <div className='flex p-3  w-max'>
       <table className='jtar'>
         <thead>
           <tr className='border border-gray p-4'>
